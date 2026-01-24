@@ -1,7 +1,5 @@
 # Housing analysing PowerBi Project
 
-### https://app.powerbi.com/groups/b0422f97-fc13-44b8-aca2-608a40a84b77/dashboards/349ce62c-6d2c-4b7c-ba2c-777ee6f1b306?ctid=f3f5e592-f1fd-4fb6-9fd6-4224d8d865a2&pbi_source=linkShare
-
 ## Project Overview
 
 This Power BI report provides an end-to-end analysis of the current housing market in Denmark. The goal is to understand the market’s evolution and conditions by analyzing trends and patterns, thereby identifying the factors that influence its trajectory. The project uses metrics designed for individuals interested in investing in this market, taking into account regional differences, inflation rates, and purchase prices.
