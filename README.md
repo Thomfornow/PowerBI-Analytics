@@ -68,8 +68,10 @@ Two card visuals were added to the canvas: one displaying the total amount of un
 - Step 4 : Offer Price vs Purchase Price:
 A Scatter chart was selected with the "Offer Price" for the X-Axis and the "purchase_price" on the Y-Axis.
 
-[Housing analysing report page 1.png
-](https://github.com/Thomfornow/PowerBI-Analytics/blob/a273690772619207a3a232f6b85098cf73b76528/Housing%20analysing%20report%20page%201.png)
+
+<img width="1167" height="642" alt="Housing analysing report page 1" src="https://github.com/user-attachments/assets/fef9c00d-1ca3-4600-a470-040270b57f65" />
+
+
 
 #### Page 2 - Sales and Performances:
            
@@ -83,7 +85,8 @@ A Donut chart was selected with "region" on the Y-axis and "Average Price SQM" o
 A Key influencers chart was used with the "purchase_price" set as the Analyze field and the "Age" as the Explain by field.
 - Step 5 : A table visual was selected displaying the "date", "Total YTD Sales" and "Sum of purchase_price" 
 
-https://github.com/Thomfornow/PowerBI-Analytics/blob/a273690772619207a3a232f6b85098cf73b76528/Housing%20analysing%20report%20page%202.png
+
+<img width="1131" height="648" alt="Housing analysing report page 2" src="https://github.com/user-attachments/assets/15443aa9-ccb2-40c9-9741-ec3521825d40" />
 
  #### Page 3 - House Type:
 
@@ -95,13 +98,15 @@ A clustered bar chart was selected with "house_type" on the Y-axis and "Inflatio
 A line and stack column chart was selected with "house_type" on the X-axis and "SQM" on column y-axis and SQM Price on the line y-axis.
 - Step 4 :Two slicers were selected to the canvas and applied at the page level: one for "City" and the other one for "Area" both using a drop down menu.
 
- https://github.com/Thomfornow/PowerBI-Analytics/blob/a273690772619207a3a232f6b85098cf73b76528/Housing%20analysing%20report%20page%203.png
+<img width="1163" height="650" alt="Housing analysing report page 3" src="https://github.com/user-attachments/assets/2e49b7ee-1686-4c06-8a57-ae17af259103" />
+
 
  # The report was then published to Power BI Service.
  
  ## Report Snapshot (Power BI DESKTOP)
 
-https://github.com/Thomfornow/PowerBI-Analytics/blob/a273690772619207a3a232f6b85098cf73b76528/Housing%20analysing%20published%201.png
+
+<img width="1869" height="920" alt="Housing analysing published 1" src="https://github.com/user-attachments/assets/a0a5fce1-1838-47a5-8362-53606c15b772" />
 
 # Insights
 
