@@ -21,8 +21,8 @@ This Power BI report provides an end-to-end analysis of the current housing mark
 - Step 12 : Create the Age column in the Housing1 table using DAX.
 
 ### DAX Query used: 
-- 1: Last 12 Months Sales = CALCULATE(SUM(Housing1[purchase_price]),DATESINPERIOD(Housing1[date],MAX(Housing1[date]), -12,MONTH))
-- 2: Median Sales Price Changes = 
+- 1 : Last 12 Months Sales = CALCULATE(SUM(Housing1[purchase_price]),DATESINPERIOD(Housing1[date],MAX(Housing1[date]), -12,MONTH))
+- 2 : Median Sales Price Changes = 
 VAR CurrentMediantPrice =
     MEDIANX(FILTER(Housing1,
     YEAR(Housing1[date].[Date])=
@@ -34,9 +34,9 @@ VAR PreMedianPrice =
 RETURN
     IF(PreMedianPrice<>0,(CurrentMediantPrice-PreMedianPrice)/PreMedianPrice,
     BLANK())
-- 3:Unit Sold in Latest Year and Quarter = 
+- 3 : Unit Sold in Latest Year and Quarter = 
 CALCULATE(DISTINCTCOUNT(Housing1[house_id]),YEAR(Housing1[date])=Year(MAX(Housing1[date])) && QUARTER(Housing1[date])=QUARTER(MAX(Housing1[date])))
-- 4:YOY Sales Growth = 
+- 4 : YOY Sales Growth = 
     Var CurrYearSales = 
         CALCULATE(SUM(Housing1[purchase_price]),
               Year(Housing1[date]) = YEAR(MAX(Housing1[date])))
@@ -46,13 +46,13 @@ Var Previyearsales =
 
 RETURN  
     IF(Previyearsales<>0, (CurrYearSales-Previyearsales) / Previyearsales, blank())
-- 5: Average Price SQM = AVERAGE(Housing1[sqm_price])
-- 6: Offer to SQM Ratio = DIVIDE(SUM(Housing1[Offer Price]), SUM(Housing1[sqm]))
-- 7: Sales by Region = 
+- 5 : Average Price SQM = AVERAGE(Housing1[sqm_price])
+- 6 : Offer to SQM Ratio = DIVIDE(SUM(Housing1[Offer Price]), SUM(Housing1[sqm]))
+- 7 : Sales by Region = 
 CALCULATE(SUM(Housing1[purchase_price]),ALLEXCEPT(Housing1,Housing1[region]))
-- 8: Total YTD Sales = TOTALYTD(SUM(Housing1[purchase_price]),Housing1[date].[Date]) 
-- 9: Offer Price = (100* Housing1[purchase_price]) /(100- Housing1[%_change_between_offer_and_purchase])
-- 10: Age = ABS(YEAR(Housing1[date].[Date]) - Housing1[year_build])
+- 8 : Total YTD Sales = TOTALYTD(SUM(Housing1[purchase_price]),Housing1[date].[Date]) 
+- 9 : Offer Price = (100* Housing1[purchase_price]) /(100- Housing1[%_change_between_offer_and_purchase])
+- 10 : Age = ABS(YEAR(Housing1[date].[Date]) - Housing1[year_build])
 
 ### Report creation steps
 #### Page 1 - House Market Overview:
@@ -113,5 +113,6 @@ A line and stack column chart was selected with "house_type" on the X-axis and "
 - Zealand records the highest total number of sales among the four regions, while Jutland shows the strongest sales price growth throughout the year.
 
 - The regular sales type receives the highest average offer per square meter, whereas the auction sales type consistently receives the lowest offer per square meter over the years.
+
 
 
