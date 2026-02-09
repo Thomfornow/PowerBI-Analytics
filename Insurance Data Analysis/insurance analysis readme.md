@@ -54,9 +54,7 @@ A Slicer with a drop-down menu visual was selected using the "ClaimNumber" for t
 - Step 12 : Customer ID:
 A Slicer with a drop-down menu visual was selected using the "CustomerID" for the Field.
 
-[<img width="1167" height="642" alt="Housing analysing report page 1" src="https://github.com/user-attachments/assets/fef9c00d-1ca3-4600-a470-040270b57f65" />
-](https://github.com/Thomfornow/PowerBI-Analytics/blob/cce0e6d6401629f84500e4d74845d111d3018638/Insurance%20Data%20Analysis/InsuranceData1.png)
-
+https://github.com/Thomfornow/PowerBI-Analytics/blob/cce0e6d6401629f84500e4d74845d111d3018638/Insurance%20Data%20Analysis/InsuranceData1.png
 
 #### Page 2 - General Overview:
            
