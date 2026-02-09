@@ -54,19 +54,17 @@ A Slicer with a drop-down menu visual was selected using the "ClaimNumber" for t
 - Step 12 : Customer ID:
 A Slicer with a drop-down menu visual was selected using the "CustomerID" for the Field.
 
-https://github.com/Thomfornow/PowerBI-Analytics/blob/cce0e6d6401629f84500e4d74845d111d3018638/Insurance%20Data%20Analysis/InsuranceData1.png
+<img width="1520" height="836" alt="InsuranceData1" src="https://github.com/user-attachments/assets/52728424-6351-4af1-861c-63845dd71efd" />
 
-#### Page 2 - General Overview:
+#### Page 2 
+- General Overview:
            
 - Step 1 : Sales by Region:
 A Table visual was selected with the following fields used as columns : "PolicyNumber", "CustomerID", "ClaimNumber", "Age", "Gender", "CoverageAmount", "PremiumAmount", "PolicyStartDate", "PolicyEndDate", "PolicyType", "ClaimStatus", "ClaimDate", "ClaimAmount", "Age Group" and "Active/Inactive".
 - Step 2 : Left Arrow Navigation:
 A left arrow button was added  with a Page Navigator to allow users to easily return to the previous page.
 
-
-
-
-<img width="1131" height="648" alt="Housing analysing report page 2" src="https://github.com/user-attachments/assets/15443aa9-ccb2-40c9-9741-ec3521825d40" />
+<img width="1518" height="840" alt="InsuranceData2" src="https://github.com/user-attachments/assets/e5cc880c-eaae-4662-a750-cba38843a4a8" />
 
 
 
@@ -76,7 +74,8 @@ A left arrow button was added  with a Page Navigator to allow users to easily re
  ## Report Snapshot (Power BI DESKTOP)
 
 
-<img width="1869" height="920" alt="Housing analysing published 1" src="https://github.com/user-attachments/assets/a0a5fce1-1838-47a5-8362-53606c15b772" />
+<img width="1869" height="878" alt="InsuranceDatadashboard" src="https://github.com/user-attachments/assets/412dc217-3fca-4203-ab39-1fb3f76aa324" />
+
 
 # Insights
 
